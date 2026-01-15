@@ -20,7 +20,11 @@ Leadership wants to understand what is driving sales and profitability performan
 (To be populated after profiling)
 
 ## Data Preparation Decisions
-(To be populated)
+* The extra table created by Excel filters does not add analytical value and will not be used.
+* The Orders data contains customer, product, and location details mixed with transaction data, which makes analysis harder without restructuring.
+* The Orders table will remain as the main transaction data, keeping dates, quantities, and sales results.
+* Customer, product, and location details should be separated so they can be reused across analysis.
+* The Returns data indicates whether an entire order was returned, not which individual items were returned, and should be treated accordingly.
 
 ## Data Modeling Decisions
 (To be populated)
