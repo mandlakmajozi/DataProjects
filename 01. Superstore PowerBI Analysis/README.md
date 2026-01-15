@@ -1,6 +1,6 @@
 # Superstore Sales Analysis (Power BI)
 
-##Business Context
+## Business Context
 Leadership wants to understand what is driving sales and profitability performance in order to identify risks, inefficiencies, and growth opportunities.
 
 ## Analytical Objectives
