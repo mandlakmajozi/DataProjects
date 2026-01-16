@@ -30,7 +30,10 @@ Leadership wants to understand what is driving sales and profitability performan
 * Removed Customer_Name and Segment Columns from Orders Table. Kept Customer_ID column in orders to still be able to link order to customers.
 * Created a separate Locations table from Orders table using Postal Code. Locations table containes these columns: Country, City, State, Postal Code and Region.
 * Removed duplicates from the Locations Table using Postal_Code Column so each Postal code only appears once, as a result the number of rows reduced from 999+ to 631.
-* Removed the following columns from Order Table: Country, City, Region, State and kept only Postal_Code Column to still be able to link orders to their location. 
+* Removed the following columns from Order Table: Country, City, Region, State and kept only Postal_Code Column to still be able to link orders to their location.
+* Created a separate Products Table using Product ID. Products Table contains these columns: Product ID, Product_Name, Category and Sub-Category.
+* Removed duplicates from Products Table using Product_ID Column so each product only appears once. The number of rows did not decrease from 999+ so to ensure duplicates were removed I inspected that "Distinct = Unique", sorted the product_id column by ascending order and manually inspected the first 100 rows to see if no duplicates existed and checked if on the applied steps "duplicates removed" was present.
+* Removed the following columns from the Orders Table: Product_Name, Category and Sub-category. Kept the Product_ID column in orders table to be able to link orders to Products.  
 
 ## Data Modeling Decisions
 (To be populated)
