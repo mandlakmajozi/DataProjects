@@ -25,6 +25,9 @@ Leadership wants to understand what is driving sales and profitability performan
 * The Orders table will remain as the main transaction data, keeping dates, quantities, and sales results.
 * Customer, product, and location details should be separated so they can be reused across analysis.
 * The Returns data indicates whether an entire order was returned, not which individual items were returned, and should be treated accordingly.
+* Created a separate customers table from Orders using Customer ID. Customer Tables contains these columns: Customer_ID, Customer_Name and Segment.
+* Removed duplicates from Customers Table using Customer_ID Column so each customer only appears once as a result number of rows reduced from 999+ to 793.
+* Removed Customer_Name and Segment Columns from Orders Table. Kept Customer_ID column in orders to still be able to link order to customers.
 
 ## Data Modeling Decisions
 (To be populated)
