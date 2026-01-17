@@ -39,6 +39,9 @@ Leadership wants to understand what is driving sales and profitability performan
 * Treated missing rows in Returns as “Not Returned”.
 * Removed the returns column that was merged into the orders table.
 * Disabled loading of the Returns table after integration.
+* Reviewed the People table, which maps regions to responsible individuals.
+* Confirmed the table already contained one person per region with no duplicates.
+* Kept the table unchanged so it can be linked to location data during modeling.
 
 ## Data Modeling Decisions
 (To be populated)
