@@ -37,6 +37,7 @@ Leadership wants to understand what is driving sales and profitability performan
 * Returns data only lists orders that were returned.
 * Merged Returns into Orders to create an “Is Returned” flag.
 * Treated missing rows in Returns as “Not Returned”.
+* Removed the returns column that was merged into the orders table.
 * Disabled loading of the Returns table after integration.
 
 ## Data Modeling Decisions
